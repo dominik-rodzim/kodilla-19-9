@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+#root {
+	max-width: 900px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#root form {
+	text-align: center;
+}
+
+#root label {
+	margin-right: 20px;
+}
+
+#root #searchText {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+#root .infoResult {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#root .infoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
